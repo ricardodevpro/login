@@ -52,6 +52,7 @@
         height: 275px;
         display: block;
         float: left;
+        transition-duration: 0.5s;
     }
 
     div#img{
