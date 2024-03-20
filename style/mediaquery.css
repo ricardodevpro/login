@@ -50,14 +50,18 @@
     div.container{
         width: 650px;
         height: 275px;
-        display: flex;
+        display: block;
+        float: left;
     }
 
     div#img{
+        display: block;
+        float: right;
+        width: 40%;
     }
 
     div > img{
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 0px 10px 10px 0px;
         display: flex;
         height: 276px;
         width: 270px;
