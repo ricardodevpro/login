@@ -32,7 +32,8 @@ div.container {
     width: 210px;
     border-radius: 10px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.600);
-    transition-duration: 0.5s;
+    transition-duration: .5s; 
+    transition-timing-function: ease-in;
 }
 
 div.container:hover{
@@ -70,24 +71,20 @@ div img {
     height: 200px;
 }
 
+ input:focus-within{
+    background-color: rgba(29, 203, 203, 0.448);;
+}
+
 div.email {
     display: flex;
     padding-bottom: 5px;
-}
-
-div.email input:hover {
-    background-color: rgba(29, 203, 203, 0.448);
 }
 
 div.pass {
     display: flex;
 }
 
-div.pass input:hover {
-    background-color: rgba(29, 203, 203, 0.448);
-}
-
-div.enviar {
+div.entrar {
     text-align: center;
     display: block;
     margin: auto;
@@ -102,14 +99,15 @@ div button{
     border-radius: 10px;
     font-family: "Poppins";
     font-weight: 600;
+    cursor: pointer;
 
 }
 
-div button#enviar{
+div button#entrar{
     background-color: rgba(29, 203, 203, 0.448);
 }
 
-div button a{
+div button#esqueci a{
     text-decoration: none;
     color: black;
     font-family: "Poppins";
