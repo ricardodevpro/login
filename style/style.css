@@ -1,0 +1,117 @@
+@charset "UFT-8";
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-image: linear-gradient(to top, blueviolet, lightblue);
+}
+
+
+div.container {
+    background-color: white;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    width: 210px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.600);
+    transition-duration: 0.5s;
+}
+
+div.container:hover{
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.600);
+    transition-duration: 0.5s;
+}
+
+form {
+    padding: 10px;
+}
+form input{
+    width: 150px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+
+legend {
+    text-align: center;
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+div p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+div img {
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    width: 210px;
+    height: 200px;
+}
+
+div.email {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+div.email input:hover {
+    background-color: rgba(29, 203, 203, 0.448);
+}
+
+div.pass {
+    display: flex;
+}
+
+div.pass input:hover {
+    background-color: rgba(29, 203, 203, 0.448);
+}
+
+div.enviar {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+div button{
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 8px;
+    width: 185px;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-weight: 600;
+
+}
+
+div button#enviar{
+    background-color: rgba(29, 203, 203, 0.448);
+}
+
+div button a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+    font-weight: 600;
+}

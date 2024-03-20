@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(to right, blueviolet, rgb(211, 193, 228)62, 241);
+    }
+    
+    div.container{
+        width: 600px;
+        height: 275px;
+        display: flex;
+        justify-content: center;
+    }
+    div > img{
+        border-radius: 10px 0px 0px 10px;
+        display: block;
+        height: 276px;
+        width: 270px;
+    }
+
+    div p{
+        font-size: 11px;
+    }
+
+    div.email input {
+        width: 265px;
+    }
+
+    div.pass input {
+        width: 265px;
+    }
+
+    div button{
+        padding: 8px;
+        width: 250px;
+        border-radius: 10px;
+        font-family: "Poppins";
+        font-weight: 600;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    body {
+        background-image: linear-gradient(to top, lightblue, blueviolet);
+    }
+
+    div.container{
+        width: 650px;
+        height: 275px;
+        display: flex;
+    }
+
+    div#img{
+    }
+
+    div > img{
+        border-radius: 10px 0px 0px 10px;
+        display: flex;
+        height: 276px;
+        width: 270px;
+    }
+
+    
+    div p{
+        font-size: 12px;
+        width: 350px;
+    }
+
+    div.email input {
+        width: 320px;
+    }
+
+    div.pass input {
+        width: 320px;
+    }
+
+    div button{
+        padding: 8px;
+        border-radius: 10px;
+        font-family: "Poppins";
+        font-weight: 600;
+        width: 355px;
+    }
+}
